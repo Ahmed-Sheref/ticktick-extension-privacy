@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - TickTick Extension</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #5b6472;
+      --primary: #2563eb;
+      --border: #dbe3f0;
+      --accent: #f5b800;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+    }
 
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 180px);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px 50px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f4cdb 0%, #3b82f6 100%);
+      color: white;
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -60px;
+      top: -60px;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.16);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      color: rgba(255,255,255,0.92);
+      font-size: 16px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      color: #0f172a;
+    }
+
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 17px;
+      color: #0f172a;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 0;
+    }
+
+    .notice {
+      border-left: 5px solid var(--accent);
+      background: #fff9e8;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin-top: 14px;
+      color: #5f4b00;
+    }
+
+    .footer {
+      margin-top: 18px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .pill {
+      background: #eef4ff;
+      color: #1847b8;
+      border: 1px solid #d7e5ff;
+      padding: 7px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 640px) {
+      .wrap { margin: 20px auto; }
+      .hero { padding: 24px 20px; }
+      h1 { font-size: 28px; }
+      .card { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="badge">Privacy Policy</div>
+      <h1>TickTick Extension</h1>
+      <p>
+        This Privacy Policy explains what information TickTick Extension may collect,
+        how that information is used, and how users can control optional features such
+        as account connection, article saving, weekly email digest, and Telegram quiz delivery.
+      </p>
+      <div class="meta">
+        <span class="pill">Effective date: April 18, 2026</span>
+        <span class="pill">Chrome Extension Privacy Policy</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>1. What the Extension Does</h2>
+        <p>
+          TickTick Extension helps users save articles from the current page, organize them with
+          tags, and generate AI-enhanced notes such as summaries. It also supports optional
+          account connection and optional learning-related features such as weekly email digest
+          and Telegram quiz delivery.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>2. Information We May Collect</h2>
+
+        <h3>Page and article data</h3>
+        <ul>
+          <li>Page title</li>
+          <li>Page URL</li>
+          <li>Selected text</li>
+          <li>Readable article or page text</li>
+          <li>User-entered title, tags, list name, and article content</li>
+        </ul>
+
+        <h3>Account and settings data</h3>
+        <ul>
+          <li>User ID associated with account connection</li>
+          <li>Email address for optional weekly digest features</li>
+          <li>Connection status and extension preferences</li>
+          <li>Telegram-related settings when the user enables optional Telegram features</li>
+        </ul>
+
+        <h3>Locally stored data</h3>
+        <p>
+          The extension may store temporary page context and user preferences locally in the browser
+          to support saving, reconnecting, and improving the user experience.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>3. How We Use Information</h2>
+        <ul>
+          <li>To save articles and notes requested by the user</li>
+          <li>To organize saved content using tags and lists</li>
+          <li>To generate AI-enhanced summaries and related learning features</li>
+          <li>To support TickTick account connection and related product functionality</li>
+          <li>To send optional weekly email digest content if the user enables it</li>
+          <li>To support optional Telegram quiz delivery if the user enables it</li>
+          <li>To remember settings and improve extension usability</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>4. Data Sharing and Third-Party Services</h2>
+        <p>
+          We do not sell user data.
+        </p>
+        <p>
+          Information may be processed by services that are necessary to provide the extension’s
+          functionality, such as backend APIs, account connection services, or optional integrations
+          explicitly enabled by the user.
+        </p>
+        <p>
+          We do not use or transfer user data for purposes unrelated to the extension’s single purpose.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>5. Data Retention</h2>
+        <p>
+          We retain data only for as long as needed to provide the extension’s features,
+          maintain saved content, and support optional features enabled by the user.
+          Some locally stored data may remain in the browser until the user removes it,
+          changes settings, or uninstalls the extension.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>6. User Choices and Controls</h2>
+        <ul>
+          <li>Users can choose what article content to save</li>
+          <li>Users can edit saved data and settings inside the extension</li>
+          <li>Users can enable or disable optional digest and Telegram features</li>
+          <li>Users can uninstall the extension at any time</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>7. Security</h2>
+        <p>
+          We take reasonable steps to protect user information and to limit access
+          to the data required for the extension’s stated purpose.
+        </p>
+        <div class="notice">
+          TickTick Extension is designed to use user data only to provide the features
+          described in this policy and in the Chrome Web Store listing.
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>8. Changes to This Policy</h2>
+        <p>
+          This Privacy Policy may be updated from time to time. Any changes will be reflected
+          on this page with an updated effective date.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>9. Contact</h2>
+        <p>
+          If you have questions about this Privacy Policy, contact:
+        </p>
+        <p>
+          <strong>Your Name:</strong> Ahmed Sheref<br />
+          <strong>Email:</strong> your-email@example.com
+        </p>
+      </section>
+    </div>
+
+    <div class="footer">
+      © 2026 TickTick Extension. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
